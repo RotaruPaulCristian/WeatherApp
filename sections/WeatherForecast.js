@@ -19,7 +19,7 @@ function displayWeatherForecast(city) {
         const realFeel = Math.round(main.feels_like);
         weatherForecast.innerHTML += `
         <div class="d-flex justify-content-between">
-            <p>${day}, ${dt}</p>
+            <p>${day}, ${hour}</p>
             <img src="${iconUrl}" />
             <p>${temperature}°C</p>
             <p>${weatherDescription}</p>
