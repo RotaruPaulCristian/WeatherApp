@@ -7,6 +7,7 @@ const currentCity = document.querySelector("#currentCity");
 function changeLocation(city) {
   currentCity.innerText = city;
   displayCurrentWeather(city);
+  displayWeatherForecast(city);
   localStorage.setItem("city", city);
 }
 

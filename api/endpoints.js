@@ -5,5 +5,5 @@ function getCurrentWeatherEndpoint(city) {
 }
 
 function getForecastWeatherEndpoint(city) {
-  return `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${API_KEY}&units=metric&lang=ro`;
+  return `https://api.openweathermap.org/data/2.5/forecast?q=${city}&appid=${API_KEY}&units=metric&lang=ro`;
 }
