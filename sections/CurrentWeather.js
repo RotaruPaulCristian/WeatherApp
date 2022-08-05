@@ -15,7 +15,7 @@ function displayCurrentWeather(city) {
       const windSpeed = Math.round(getWindInKmPerHour(wind.speed));
 
       currentWeatherSection.innerHTML = `
-      <div class="px-3">
+      <div class="px-3 d-flex flex-column align-items-start">
           <div class="fs-2 mb-2"><strong>${name}</strong></div>
           <div class="fs-4"><strong>${day}</strong>, ${hours}</div>
           <div class="d-flex align-items-center justify-content-center">
